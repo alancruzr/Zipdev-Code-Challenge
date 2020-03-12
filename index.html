@@ -1,0 +1,36 @@
+<html>
+  <head>
+		<title>Zipdev Code Challenge</title>
+    <link rel="stylesheet" href="css/quiz.css"/>
+		<link rel="stylesheet" href="normalize.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body onLoad="nextQuestion()">
+
+
+    <div class="container1">
+
+      <div class="logo"> <a href="https://zipdev.co/"><img src="assets/logos/logo-white.png" alt="Zipdev Code Challenge"></a>
+      </div>
+       <p class="maintitle" onClick="window.location.reload();"> <a href="#" class="emptylink">Zipdev Code Challenge </a> </p>
+
+      <div class="quizstyling">
+    <h2 id="question"></h2>
+    <div class="optionscontainer">
+    <div id="options"></div>
+  </div>
+
+    <br/><br/>
+    <button id="submit" onClick="nextQuestion()">SUBMIT</button>
+    <progress value="0" max="4" id="progressBar"></progress>
+    <div id="countdown"></div>
+
+  </div>
+  </div>
+		<!--Javascript functions-->
+    <script type="text/javascript" src="js/functionality.js">
+    </script>
+  </body>
+</html>

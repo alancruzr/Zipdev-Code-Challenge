@@ -1,0 +1,124 @@
+/* General*/
+
+body{
+background-color: #132a4d;
+
+
+}
+input {
+  margin: .625rem;
+}
+label {
+  margin: .375rem;
+}
+.highlight {
+  background-color: green;
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+.error {
+  background-color: red;
+  width: inherit;
+  height: inherit;
+  margin:0;
+  padding: 0;
+}
+#countdown {
+  padding: 0.3125rem;
+
+}
+/*Title */
+
+.logo{
+  text-align: center;
+  margin-top: 3rem;
+  margin-top: 1rem;
+}
+.maintitle{
+  font-size: 1.8rem;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.emptylink{
+  text-decoration: none;
+  color: white;
+}
+
+/* Quiz basic styling*/
+.container1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width:12.5rem;
+  width: auto !important;   /* Firefox will set width as auto */
+  width:12.5rem;
+
+}
+.quizstyling{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #262626;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  background-color: #95bdf4;
+  margin: 3rem 15rem 0 15rem;
+  padding: 5rem 2rem 5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.optionscontainer{
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#options{
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+  text-align: left;
+  }
+
+#submit{
+  border-radius: .5rem;
+  width: 10rem;
+  height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  background-color: #9f5fb6;
+  color: white;
+}
+#progressBar{
+  margin-left: auto;
+  margin-right: auto;
+}
+#countdown{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* Media queries for general responsive on laptop  */
+@media only screen and (min-width: 177px) and (max-width: 736px) {
+
+.container1{
+  display: block;
+}
+
+.quizstyling{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+}
